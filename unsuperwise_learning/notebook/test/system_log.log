@@ -1,0 +1,2 @@
+2024-09-20 16:36:51,989 - INFO - Data loaded and concatenated. Total rows: 4000, Total columns: 32
+2024-09-20 16:36:52,335 - INFO - Data preprocessing complete. Shape after preprocessing: (4000, 1665)

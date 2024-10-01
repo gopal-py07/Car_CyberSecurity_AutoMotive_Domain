@@ -1,0 +1,582 @@
+2024-09-18 14:26:36,692 - INFO - Starting unsupervised learning data preprocessing.
+2024-09-18 14:26:36,773 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 14:26:36,784 - INFO - Datasets combined successfully.
+2024-09-18 14:26:36,814 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 14:26:36,814 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 14:26:37,234 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 14:26:38,063 - INFO - Data converted to PyTorch tensors.
+2024-09-18 14:26:38,064 - INFO - DataLoader created with batch size of 64. Total batches: 625
+2024-09-18 14:26:38,064 - INFO - Data preprocessing completed successfully.
+2024-09-18 14:26:38,283 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-18 14:26:38,429 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 14:26:38,460 - INFO - Datasets combined successfully.
+2024-09-18 14:26:38,515 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 14:26:38,521 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 14:26:39,398 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 14:26:39,418 - INFO - Numeric data normalized using StandardScaler.
+2024-09-18 14:26:40,798 - INFO - Data concatenated and converted to dense format for PyTorch.
+2024-09-18 14:26:41,280 - INFO - Data converted to PyTorch tensors.
+2024-09-18 14:26:41,780 - INFO - Data split into training and test sets with a test size of 20%.
+2024-09-18 14:26:41,780 - INFO - DataLoader created for both training and test sets.
+2024-09-18 14:26:41,815 - INFO - Autoencoder model initialized with input dimension: 5233.
+2024-09-18 14:26:44,632 - INFO - Loss function and optimizer set up.
+2024-09-18 14:27:00,858 - INFO - Epoch [1/50], Loss: nan
+2024-09-18 14:27:15,904 - INFO - Epoch [2/50], Loss: nan
+2024-09-18 14:27:30,957 - INFO - Epoch [3/50], Loss: nan
+2024-09-18 14:27:46,090 - INFO - Epoch [4/50], Loss: nan
+2024-09-18 14:28:01,164 - INFO - Epoch [5/50], Loss: nan
+2024-09-18 14:28:16,698 - INFO - Epoch [6/50], Loss: nan
+2024-09-18 14:28:33,758 - INFO - Epoch [7/50], Loss: nan
+2024-09-18 14:28:52,007 - INFO - Epoch [8/50], Loss: nan
+2024-09-18 14:29:07,088 - INFO - Epoch [9/50], Loss: nan
+2024-09-18 14:29:22,117 - INFO - Epoch [10/50], Loss: nan
+2024-09-18 14:29:37,030 - INFO - Epoch [11/50], Loss: nan
+2024-09-18 14:29:52,573 - INFO - Epoch [12/50], Loss: nan
+2024-09-18 14:30:07,611 - INFO - Epoch [13/50], Loss: nan
+2024-09-18 14:30:22,641 - INFO - Epoch [14/50], Loss: nan
+2024-09-18 14:30:41,019 - INFO - Epoch [15/50], Loss: nan
+2024-09-18 14:30:59,034 - INFO - Epoch [16/50], Loss: nan
+2024-09-18 14:31:14,480 - INFO - Epoch [17/50], Loss: nan
+2024-09-18 14:31:30,155 - INFO - Epoch [18/50], Loss: nan
+2024-09-18 14:31:46,389 - INFO - Epoch [19/50], Loss: nan
+2024-09-18 14:32:04,305 - INFO - Epoch [20/50], Loss: nan
+2024-09-18 14:32:24,075 - INFO - Epoch [21/50], Loss: nan
+2024-09-18 14:32:39,885 - INFO - Epoch [22/50], Loss: nan
+2024-09-18 14:32:58,695 - INFO - Epoch [23/50], Loss: nan
+2024-09-18 14:33:19,325 - INFO - Epoch [24/50], Loss: nan
+2024-09-18 14:33:36,777 - INFO - Epoch [25/50], Loss: nan
+2024-09-18 14:33:52,389 - INFO - Epoch [26/50], Loss: nan
+2024-09-18 14:34:07,650 - INFO - Epoch [27/50], Loss: nan
+2024-09-18 14:34:23,485 - INFO - Epoch [28/50], Loss: nan
+2024-09-18 14:34:38,843 - INFO - Epoch [29/50], Loss: nan
+2024-09-18 14:34:57,658 - INFO - Epoch [30/50], Loss: nan
+2024-09-18 14:35:17,289 - INFO - Epoch [31/50], Loss: nan
+2024-09-18 14:35:34,573 - INFO - Epoch [32/50], Loss: nan
+2024-09-18 14:35:55,484 - INFO - Epoch [33/50], Loss: nan
+2024-09-18 14:36:13,845 - INFO - Epoch [34/50], Loss: nan
+2024-09-18 14:36:31,115 - INFO - Epoch [35/50], Loss: nan
+2024-09-18 14:36:47,345 - INFO - Epoch [36/50], Loss: nan
+2024-09-18 14:37:06,956 - INFO - Epoch [37/50], Loss: nan
+2024-09-18 14:37:26,400 - INFO - Epoch [38/50], Loss: nan
+2024-09-18 14:37:43,161 - INFO - Epoch [39/50], Loss: nan
+2024-09-18 14:38:00,013 - INFO - Epoch [40/50], Loss: nan
+2024-09-18 14:38:17,314 - INFO - Epoch [41/50], Loss: nan
+2024-09-18 14:38:35,178 - INFO - Epoch [42/50], Loss: nan
+2024-09-18 14:38:59,527 - INFO - Epoch [43/50], Loss: nan
+2024-09-18 14:39:23,573 - INFO - Epoch [44/50], Loss: nan
+2024-09-18 14:39:38,851 - INFO - Epoch [45/50], Loss: nan
+2024-09-18 14:39:53,978 - INFO - Epoch [46/50], Loss: nan
+2024-09-18 14:40:09,153 - INFO - Epoch [47/50], Loss: nan
+2024-09-18 14:40:29,484 - INFO - Epoch [48/50], Loss: nan
+2024-09-18 14:40:56,430 - INFO - Epoch [49/50], Loss: nan
+2024-09-18 14:41:23,646 - INFO - Epoch [50/50], Loss: nan
+2024-09-18 14:41:23,667 - INFO - Training complete.
+2024-09-18 14:41:23,667 - INFO - Anomaly detection threshold set to 0.02.
+2024-09-18 14:41:25,976 - INFO - Number of anomalies detected: 0
+2024-09-18 14:41:30,029 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-18 14:41:30,212 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 14:41:30,427 - INFO - Datasets combined successfully.
+2024-09-18 14:41:30,437 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 14:41:30,437 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 14:41:30,590 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 14:41:30,613 - INFO - Numeric data normalized using StandardScaler.
+2024-09-18 14:41:30,769 - INFO - Data concatenated and converted to dense format for PyTorch.
+2024-09-18 14:41:30,870 - INFO - Data converted to PyTorch tensors.
+2024-09-18 14:41:30,901 - INFO - Data split into training and test sets with a test size of 20%.
+2024-09-18 14:41:31,083 - INFO - DataLoader created for both training and test sets.
+2024-09-18 14:41:31,094 - INFO - Autoencoder model initialized with input dimension: 1665.
+2024-09-18 14:41:31,095 - INFO - Loss function and optimizer set up.
+2024-09-18 14:41:31,594 - INFO - Epoch [1/50], Loss: nan
+2024-09-18 14:41:32,059 - INFO - Epoch [2/50], Loss: nan
+2024-09-18 14:41:32,503 - INFO - Epoch [3/50], Loss: nan
+2024-09-18 14:41:33,024 - INFO - Epoch [4/50], Loss: nan
+2024-09-18 14:41:33,527 - INFO - Epoch [5/50], Loss: nan
+2024-09-18 14:41:34,018 - INFO - Epoch [6/50], Loss: nan
+2024-09-18 14:41:34,486 - INFO - Epoch [7/50], Loss: nan
+2024-09-18 14:41:34,952 - INFO - Epoch [8/50], Loss: nan
+2024-09-18 14:41:35,412 - INFO - Epoch [9/50], Loss: nan
+2024-09-18 14:41:35,884 - INFO - Epoch [10/50], Loss: nan
+2024-09-18 14:41:36,344 - INFO - Epoch [11/50], Loss: nan
+2024-09-18 14:41:36,812 - INFO - Epoch [12/50], Loss: nan
+2024-09-18 14:41:37,308 - INFO - Epoch [13/50], Loss: nan
+2024-09-18 14:41:37,802 - INFO - Epoch [14/50], Loss: nan
+2024-09-18 14:41:38,292 - INFO - Epoch [15/50], Loss: nan
+2024-09-18 14:41:38,772 - INFO - Epoch [16/50], Loss: nan
+2024-09-18 14:41:39,214 - INFO - Epoch [17/50], Loss: nan
+2024-09-18 14:41:39,634 - INFO - Epoch [18/50], Loss: nan
+2024-09-18 14:41:40,091 - INFO - Epoch [19/50], Loss: nan
+2024-09-18 14:41:40,564 - INFO - Epoch [20/50], Loss: nan
+2024-09-18 14:41:41,023 - INFO - Epoch [21/50], Loss: nan
+2024-09-18 14:41:41,488 - INFO - Epoch [22/50], Loss: nan
+2024-09-18 14:41:41,950 - INFO - Epoch [23/50], Loss: nan
+2024-09-18 14:41:42,447 - INFO - Epoch [24/50], Loss: nan
+2024-09-18 14:41:42,915 - INFO - Epoch [25/50], Loss: nan
+2024-09-18 14:41:43,433 - INFO - Epoch [26/50], Loss: nan
+2024-09-18 14:41:43,964 - INFO - Epoch [27/50], Loss: nan
+2024-09-18 14:41:44,532 - INFO - Epoch [28/50], Loss: nan
+2024-09-18 14:41:45,381 - INFO - Epoch [29/50], Loss: nan
+2024-09-18 14:41:46,363 - INFO - Epoch [30/50], Loss: nan
+2024-09-18 14:41:47,301 - INFO - Epoch [31/50], Loss: nan
+2024-09-18 14:41:47,963 - INFO - Epoch [32/50], Loss: nan
+2024-09-18 14:41:48,442 - INFO - Epoch [33/50], Loss: nan
+2024-09-18 14:41:49,047 - INFO - Epoch [34/50], Loss: nan
+2024-09-18 14:41:49,672 - INFO - Epoch [35/50], Loss: nan
+2024-09-18 14:41:50,189 - INFO - Epoch [36/50], Loss: nan
+2024-09-18 14:41:50,719 - INFO - Epoch [37/50], Loss: nan
+2024-09-18 14:41:51,228 - INFO - Epoch [38/50], Loss: nan
+2024-09-18 14:41:52,148 - INFO - Epoch [39/50], Loss: nan
+2024-09-18 14:41:52,701 - INFO - Epoch [40/50], Loss: nan
+2024-09-18 14:41:53,254 - INFO - Epoch [41/50], Loss: nan
+2024-09-18 14:41:53,821 - INFO - Epoch [42/50], Loss: nan
+2024-09-18 14:41:54,312 - INFO - Epoch [43/50], Loss: nan
+2024-09-18 14:41:54,914 - INFO - Epoch [44/50], Loss: nan
+2024-09-18 14:41:55,481 - INFO - Epoch [45/50], Loss: nan
+2024-09-18 14:41:55,963 - INFO - Epoch [46/50], Loss: nan
+2024-09-18 14:41:56,422 - INFO - Epoch [47/50], Loss: nan
+2024-09-18 14:41:56,874 - INFO - Epoch [48/50], Loss: nan
+2024-09-18 14:41:57,312 - INFO - Epoch [49/50], Loss: nan
+2024-09-18 14:41:57,772 - INFO - Epoch [50/50], Loss: nan
+2024-09-18 14:41:57,773 - INFO - Training complete.
+2024-09-18 14:41:57,774 - INFO - Anomaly detection threshold set to 0.02.
+2024-09-18 14:41:57,798 - INFO - Number of anomalies detected: 0
+2024-09-18 14:42:03,232 - ERROR - No such comm target registered: jupyter.widget.control
+2024-09-18 14:42:03,252 - WARNING - No such comm: 87f1b0a6-715e-458c-bf0a-5e28cdbb9a21
+2024-09-18 16:32:16,081 - INFO - Data loaded and concatenated. Total rows: 40000, Total columns: 32
+2024-09-18 16:32:17,802 - INFO - Data preprocessing complete. Shape after preprocessing: (40000, 4645)
+2024-09-18 16:32:17,997 - INFO - DataLoader created with batch size 64.
+2024-09-18 16:32:18,011 - INFO - Autoencoder initialized with input size 4645.
+2024-09-18 16:32:22,665 - INFO - Epoch 1/50, Loss: 0.0024329624138772488
+2024-09-18 16:32:27,588 - INFO - Epoch 2/50, Loss: 0.0025976202450692654
+2024-09-18 16:32:33,596 - INFO - Epoch 3/50, Loss: 0.0021112128160893917
+2024-09-18 16:32:40,233 - INFO - Epoch 4/50, Loss: 0.002050509210675955
+2024-09-18 16:32:47,386 - INFO - Epoch 5/50, Loss: 0.0020790263079106808
+2024-09-18 16:32:55,345 - INFO - Epoch 6/50, Loss: 0.002892557065933943
+2024-09-18 16:33:03,169 - INFO - Epoch 7/50, Loss: 0.0018680291250348091
+2024-09-18 16:33:12,673 - INFO - Epoch 8/50, Loss: 0.0023673027753829956
+2024-09-18 16:33:27,168 - INFO - Epoch 9/50, Loss: 0.0016454551368951797
+2024-09-18 16:33:43,731 - INFO - Epoch 10/50, Loss: 0.001574355992488563
+2024-09-18 16:34:29,129 - INFO - Starting unsupervised learning data preprocessing.
+2024-09-18 16:34:29,188 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 16:34:29,199 - INFO - Datasets combined successfully.
+2024-09-18 16:34:29,219 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 16:34:29,223 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 16:34:29,547 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 16:34:30,203 - INFO - Data converted to PyTorch tensors.
+2024-09-18 16:34:30,203 - INFO - DataLoader created with batch size of 64. Total batches: 625
+2024-09-18 16:34:30,203 - INFO - Data preprocessing completed successfully.
+2024-09-18 16:34:30,367 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-18 16:34:30,503 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 16:34:30,532 - INFO - Datasets combined successfully.
+2024-09-18 16:34:30,585 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 16:34:30,586 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 16:34:31,261 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 16:34:31,271 - INFO - Numeric data normalized using StandardScaler.
+2024-09-18 16:34:32,758 - INFO - Data concatenated and converted to dense format for PyTorch.
+2024-09-18 16:34:34,373 - INFO - Data converted to PyTorch tensors.
+2024-09-18 16:34:36,661 - INFO - Data split into training and test sets with a test size of 20%.
+2024-09-18 16:34:36,745 - INFO - DataLoader created for both training and test sets.
+2024-09-18 16:34:36,887 - INFO - Autoencoder model initialized with input dimension: 5233.
+2024-09-18 16:34:41,827 - INFO - Loss function and optimizer set up.
+2024-09-18 16:35:02,797 - INFO - Epoch [1/50], Loss: nan
+2024-09-18 16:35:27,122 - INFO - Epoch [2/50], Loss: nan
+2024-09-18 16:35:43,610 - INFO - Epoch [3/50], Loss: nan
+2024-09-18 16:36:00,793 - INFO - Epoch [4/50], Loss: nan
+2024-09-18 16:36:28,443 - INFO - Epoch [5/50], Loss: nan
+2024-09-18 16:36:51,824 - INFO - Epoch [6/50], Loss: nan
+2024-09-18 16:37:16,916 - INFO - Epoch [7/50], Loss: nan
+2024-09-18 16:37:46,982 - INFO - Epoch [8/50], Loss: nan
+2024-09-18 16:38:15,771 - INFO - Epoch [9/50], Loss: nan
+2024-09-18 16:38:42,557 - INFO - Epoch [10/50], Loss: nan
+2024-09-18 16:39:04,880 - INFO - Epoch [11/50], Loss: nan
+2024-09-18 16:39:34,165 - INFO - Epoch [12/50], Loss: nan
+2024-09-18 16:39:55,433 - INFO - Epoch [13/50], Loss: nan
+2024-09-18 16:40:25,472 - INFO - Epoch [14/50], Loss: nan
+2024-09-18 16:40:41,058 - INFO - Epoch [15/50], Loss: nan
+2024-09-18 16:40:57,189 - INFO - Epoch [16/50], Loss: nan
+2024-09-18 16:41:17,397 - INFO - Epoch [17/50], Loss: nan
+2024-09-18 16:41:35,739 - INFO - Epoch [18/50], Loss: nan
+2024-09-18 16:41:54,121 - INFO - Epoch [19/50], Loss: nan
+2024-09-18 16:42:13,872 - INFO - Epoch [20/50], Loss: nan
+2024-09-18 16:42:32,889 - INFO - Epoch [21/50], Loss: nan
+2024-09-18 16:42:49,572 - INFO - Epoch [22/50], Loss: nan
+2024-09-18 16:43:05,768 - INFO - Epoch [23/50], Loss: nan
+2024-09-18 16:43:21,116 - INFO - Epoch [24/50], Loss: nan
+2024-09-18 16:43:37,662 - INFO - Epoch [25/50], Loss: nan
+2024-09-18 16:43:55,859 - INFO - Epoch [26/50], Loss: nan
+2024-09-18 16:44:16,484 - INFO - Epoch [27/50], Loss: nan
+2024-09-18 16:44:36,567 - INFO - Epoch [28/50], Loss: nan
+2024-09-18 16:44:52,426 - INFO - Epoch [29/50], Loss: nan
+2024-09-18 16:45:08,274 - INFO - Epoch [30/50], Loss: nan
+2024-09-18 16:45:25,893 - INFO - Epoch [31/50], Loss: nan
+2024-09-18 16:45:42,960 - INFO - Epoch [32/50], Loss: nan
+2024-09-18 16:46:00,330 - INFO - Epoch [33/50], Loss: nan
+2024-09-18 16:46:18,945 - INFO - Epoch [34/50], Loss: nan
+2024-09-18 16:46:36,464 - INFO - Epoch [35/50], Loss: nan
+2024-09-18 16:46:55,829 - INFO - Epoch [36/50], Loss: nan
+2024-09-18 16:47:15,210 - INFO - Epoch [37/50], Loss: nan
+2024-09-18 16:47:35,536 - INFO - Epoch [38/50], Loss: nan
+2024-09-18 16:47:53,077 - INFO - Epoch [39/50], Loss: nan
+2024-09-18 16:48:12,028 - INFO - Epoch [40/50], Loss: nan
+2024-09-18 16:48:31,396 - INFO - Epoch [41/50], Loss: nan
+2024-09-18 16:48:55,403 - INFO - Epoch [42/50], Loss: nan
+2024-09-18 16:49:24,061 - INFO - Epoch [43/50], Loss: nan
+2024-09-18 16:49:47,716 - INFO - Epoch [44/50], Loss: nan
+2024-09-18 16:50:11,058 - INFO - Epoch [45/50], Loss: nan
+2024-09-18 16:50:38,996 - INFO - Epoch [46/50], Loss: nan
+2024-09-18 16:51:02,337 - INFO - Epoch [47/50], Loss: nan
+2024-09-18 16:51:29,029 - INFO - Epoch [48/50], Loss: nan
+2024-09-18 16:51:51,034 - INFO - Epoch [49/50], Loss: nan
+2024-09-18 16:52:09,549 - INFO - Epoch [50/50], Loss: nan
+2024-09-18 16:52:09,549 - INFO - Training complete.
+2024-09-18 16:52:09,558 - INFO - Anomaly detection threshold set to 0.02.
+2024-09-18 16:52:10,788 - INFO - Number of anomalies detected: 0
+2024-09-18 16:52:11,687 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-18 16:52:11,727 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 16:52:11,757 - INFO - Datasets combined successfully.
+2024-09-18 16:52:11,763 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 16:52:11,763 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 16:52:11,818 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 16:52:11,829 - INFO - Numeric data normalized using StandardScaler.
+2024-09-18 16:52:12,012 - INFO - Data concatenated and converted to dense format for PyTorch.
+2024-09-18 16:52:12,296 - INFO - Data converted to PyTorch tensors.
+2024-09-18 16:52:12,314 - INFO - Data split into training and test sets with a test size of 20%.
+2024-09-18 16:52:12,488 - INFO - DataLoader created for both training and test sets.
+2024-09-18 16:52:12,498 - INFO - Autoencoder model initialized with input dimension: 1665.
+2024-09-18 16:52:12,498 - INFO - Loss function and optimizer set up.
+2024-09-18 16:52:13,006 - INFO - Epoch [1/50], Loss: nan
+2024-09-18 16:52:13,476 - INFO - Epoch [2/50], Loss: nan
+2024-09-18 16:52:13,942 - INFO - Epoch [3/50], Loss: nan
+2024-09-18 16:52:14,454 - INFO - Epoch [4/50], Loss: nan
+2024-09-18 16:52:14,924 - INFO - Epoch [5/50], Loss: nan
+2024-09-18 16:52:15,367 - INFO - Epoch [6/50], Loss: nan
+2024-09-18 16:52:15,796 - INFO - Epoch [7/50], Loss: nan
+2024-09-18 16:52:16,221 - INFO - Epoch [8/50], Loss: nan
+2024-09-18 16:52:16,620 - INFO - Epoch [9/50], Loss: nan
+2024-09-18 16:52:17,080 - INFO - Epoch [10/50], Loss: nan
+2024-09-18 16:52:17,493 - INFO - Epoch [11/50], Loss: nan
+2024-09-18 16:52:17,892 - INFO - Epoch [12/50], Loss: nan
+2024-09-18 16:52:18,555 - INFO - Epoch [13/50], Loss: nan
+2024-09-18 16:52:19,067 - INFO - Epoch [14/50], Loss: nan
+2024-09-18 16:52:19,867 - INFO - Epoch [15/50], Loss: nan
+2024-09-18 16:52:20,360 - INFO - Epoch [16/50], Loss: nan
+2024-09-18 16:52:20,842 - INFO - Epoch [17/50], Loss: nan
+2024-09-18 16:52:21,293 - INFO - Epoch [18/50], Loss: nan
+2024-09-18 16:52:21,715 - INFO - Epoch [19/50], Loss: nan
+2024-09-18 16:52:22,174 - INFO - Epoch [20/50], Loss: nan
+2024-09-18 16:52:22,665 - INFO - Epoch [21/50], Loss: nan
+2024-09-18 16:52:23,140 - INFO - Epoch [22/50], Loss: nan
+2024-09-18 16:52:23,625 - INFO - Epoch [23/50], Loss: nan
+2024-09-18 16:52:24,094 - INFO - Epoch [24/50], Loss: nan
+2024-09-18 16:52:24,567 - INFO - Epoch [25/50], Loss: nan
+2024-09-18 16:52:25,056 - INFO - Epoch [26/50], Loss: nan
+2024-09-18 16:52:25,518 - INFO - Epoch [27/50], Loss: nan
+2024-09-18 16:52:26,009 - INFO - Epoch [28/50], Loss: nan
+2024-09-18 16:52:26,501 - INFO - Epoch [29/50], Loss: nan
+2024-09-18 16:52:27,014 - INFO - Epoch [30/50], Loss: nan
+2024-09-18 16:52:27,427 - INFO - Epoch [31/50], Loss: nan
+2024-09-18 16:52:27,833 - INFO - Epoch [32/50], Loss: nan
+2024-09-18 16:52:28,252 - INFO - Epoch [33/50], Loss: nan
+2024-09-18 16:52:28,625 - INFO - Epoch [34/50], Loss: nan
+2024-09-18 16:52:29,015 - INFO - Epoch [35/50], Loss: nan
+2024-09-18 16:52:29,423 - INFO - Epoch [36/50], Loss: nan
+2024-09-18 16:52:29,835 - INFO - Epoch [37/50], Loss: nan
+2024-09-18 16:52:30,239 - INFO - Epoch [38/50], Loss: nan
+2024-09-18 16:52:30,647 - INFO - Epoch [39/50], Loss: nan
+2024-09-18 16:52:31,068 - INFO - Epoch [40/50], Loss: nan
+2024-09-18 16:52:31,496 - INFO - Epoch [41/50], Loss: nan
+2024-09-18 16:52:31,908 - INFO - Epoch [42/50], Loss: nan
+2024-09-18 16:52:32,319 - INFO - Epoch [43/50], Loss: nan
+2024-09-18 16:52:32,724 - INFO - Epoch [44/50], Loss: nan
+2024-09-18 16:52:33,154 - INFO - Epoch [45/50], Loss: nan
+2024-09-18 16:52:33,567 - INFO - Epoch [46/50], Loss: nan
+2024-09-18 16:52:33,972 - INFO - Epoch [47/50], Loss: nan
+2024-09-18 16:52:34,361 - INFO - Epoch [48/50], Loss: nan
+2024-09-18 16:52:34,759 - INFO - Epoch [49/50], Loss: nan
+2024-09-18 16:52:35,104 - INFO - Epoch [50/50], Loss: nan
+2024-09-18 16:52:35,104 - INFO - Training complete.
+2024-09-18 16:52:35,105 - INFO - Anomaly detection threshold set to 0.02.
+2024-09-18 16:52:35,128 - INFO - Number of anomalies detected: 0
+2024-09-18 18:18:42,771 - INFO - Starting unsupervised learning data preprocessing.
+2024-09-18 18:18:42,855 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 18:18:42,877 - INFO - Datasets combined successfully.
+2024-09-18 18:18:42,908 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 18:18:42,909 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 18:18:43,340 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 18:18:44,286 - INFO - Data converted to PyTorch tensors.
+2024-09-18 18:18:44,287 - INFO - DataLoader created with batch size of 64. Total batches: 625
+2024-09-18 18:18:44,288 - INFO - Data preprocessing completed successfully.
+2024-09-18 18:18:45,457 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-18 18:18:45,655 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 18:18:45,687 - INFO - Datasets combined successfully.
+2024-09-18 18:18:45,747 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 18:18:45,748 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 18:18:46,727 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 18:18:46,765 - INFO - Numeric data normalized using StandardScaler.
+2024-09-18 18:18:48,913 - INFO - Data concatenated and converted to dense format for PyTorch.
+2024-09-18 18:18:49,684 - INFO - Data converted to PyTorch tensors.
+2024-09-18 18:18:51,055 - INFO - Data split into training and test sets with a test size of 20%.
+2024-09-18 18:18:51,111 - INFO - DataLoader created for both training and test sets.
+2024-09-18 18:18:51,157 - INFO - Autoencoder model initialized with input dimension: 5233.
+2024-09-18 18:18:51,175 - INFO - Loss function and optimizer set up.
+2024-09-18 18:19:15,550 - INFO - Epoch [1/50], Loss: nan
+2024-09-18 18:19:37,498 - INFO - Epoch [2/50], Loss: nan
+2024-09-18 18:20:07,124 - INFO - Epoch [3/50], Loss: nan
+2024-09-18 18:20:30,959 - INFO - Epoch [4/50], Loss: nan
+2024-09-18 18:20:53,316 - INFO - Epoch [5/50], Loss: nan
+2024-09-18 18:21:14,197 - INFO - Epoch [6/50], Loss: nan
+2024-09-18 18:21:40,723 - INFO - Epoch [7/50], Loss: nan
+2024-09-18 18:22:09,961 - INFO - Epoch [8/50], Loss: nan
+2024-09-18 18:22:47,351 - INFO - Epoch [9/50], Loss: nan
+2024-09-18 18:23:15,090 - INFO - Epoch [10/50], Loss: nan
+2024-09-18 18:23:36,646 - INFO - Epoch [11/50], Loss: nan
+2024-09-18 18:23:59,743 - INFO - Epoch [12/50], Loss: nan
+2024-09-18 18:24:20,609 - INFO - Epoch [13/50], Loss: nan
+2024-09-18 18:24:41,154 - INFO - Epoch [14/50], Loss: nan
+2024-09-18 18:25:05,439 - INFO - Epoch [15/50], Loss: nan
+2024-09-18 18:25:36,821 - INFO - Epoch [16/50], Loss: nan
+2024-09-18 18:26:03,886 - INFO - Epoch [17/50], Loss: nan
+2024-09-18 18:26:28,479 - INFO - Epoch [18/50], Loss: nan
+2024-09-18 18:26:51,224 - INFO - Epoch [19/50], Loss: nan
+2024-09-18 18:27:14,150 - INFO - Epoch [20/50], Loss: nan
+2024-09-18 18:27:38,517 - INFO - Epoch [21/50], Loss: nan
+2024-09-18 18:28:06,716 - INFO - Epoch [22/50], Loss: nan
+2024-09-18 18:28:36,949 - INFO - Epoch [23/50], Loss: nan
+2024-09-18 18:29:05,037 - INFO - Epoch [24/50], Loss: nan
+2024-09-18 18:29:31,612 - INFO - Epoch [25/50], Loss: nan
+2024-09-18 18:29:59,028 - INFO - Epoch [26/50], Loss: nan
+2024-09-18 18:30:28,605 - INFO - Epoch [27/50], Loss: nan
+2024-09-18 18:30:52,279 - INFO - Epoch [28/50], Loss: nan
+2024-09-18 18:31:20,244 - INFO - Epoch [29/50], Loss: nan
+2024-09-18 18:31:41,544 - INFO - Epoch [30/50], Loss: nan
+2024-09-18 18:32:04,265 - INFO - Epoch [31/50], Loss: nan
+2024-09-18 18:32:28,239 - INFO - Epoch [32/50], Loss: nan
+2024-09-18 18:32:52,934 - INFO - Epoch [33/50], Loss: nan
+2024-09-18 18:33:14,653 - INFO - Epoch [34/50], Loss: nan
+2024-09-18 18:33:34,249 - INFO - Epoch [35/50], Loss: nan
+2024-09-18 18:33:54,831 - INFO - Epoch [36/50], Loss: nan
+2024-09-18 18:34:20,061 - INFO - Epoch [37/50], Loss: nan
+2024-09-18 18:34:41,755 - INFO - Epoch [38/50], Loss: nan
+2024-09-18 18:35:01,614 - INFO - Epoch [39/50], Loss: nan
+2024-09-18 18:35:23,793 - INFO - Epoch [40/50], Loss: nan
+2024-09-18 18:35:44,633 - INFO - Epoch [41/50], Loss: nan
+2024-09-18 18:36:06,341 - INFO - Epoch [42/50], Loss: nan
+2024-09-18 18:36:26,214 - INFO - Epoch [43/50], Loss: nan
+2024-09-18 18:36:45,834 - INFO - Epoch [44/50], Loss: nan
+2024-09-18 18:37:10,266 - INFO - Epoch [45/50], Loss: nan
+2024-09-18 18:37:37,596 - INFO - Epoch [46/50], Loss: nan
+2024-09-18 18:38:14,056 - INFO - Epoch [47/50], Loss: nan
+2024-09-18 18:38:37,000 - INFO - Epoch [48/50], Loss: nan
+2024-09-18 18:38:57,971 - INFO - Epoch [49/50], Loss: nan
+2024-09-18 18:39:21,967 - INFO - Epoch [50/50], Loss: nan
+2024-09-18 18:39:21,969 - INFO - Training complete.
+2024-09-18 18:39:21,971 - INFO - Anomaly detection threshold set to 0.02.
+2024-09-18 18:39:24,118 - INFO - Number of anomalies detected: 0
+2024-09-18 18:39:24,854 - INFO - Console logging is disabled; only logging to file.
+2024-09-18 18:39:24,855 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-18 18:39:25,307 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-18 18:39:25,402 - INFO - Datasets combined successfully.
+2024-09-18 18:39:25,556 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-18 18:39:25,557 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-18 18:39:28,663 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-18 18:39:28,731 - INFO - Numeric data normalized using StandardScaler.
+2024-09-20 17:39:17,389 - INFO - Starting unsupervised learning data preprocessing.
+2024-09-20 17:39:17,579 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-20 17:39:17,626 - INFO - Datasets combined successfully.
+2024-09-20 17:39:17,687 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-20 17:39:17,689 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-20 17:39:18,845 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-20 17:39:21,753 - INFO - Data converted to PyTorch tensors.
+2024-09-20 17:39:21,755 - INFO - DataLoader created with batch size of 64. Total batches: 625
+2024-09-20 17:39:21,756 - INFO - Data preprocessing completed successfully.
+2024-09-20 17:39:22,258 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-20 17:39:22,677 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-20 17:39:22,750 - INFO - Datasets combined successfully.
+2024-09-20 17:39:22,874 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-20 17:39:22,875 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-20 17:39:25,252 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-20 17:39:25,291 - INFO - Numeric data normalized using StandardScaler.
+2024-09-20 17:39:32,395 - INFO - Data concatenated and converted to dense format for PyTorch.
+2024-09-20 17:39:39,812 - INFO - Data converted to PyTorch tensors.
+2024-09-20 17:39:45,183 - INFO - Data split into training and test sets with a test size of 20%.
+2024-09-20 17:39:48,038 - INFO - DataLoader created for both training and test sets.
+2024-09-20 17:39:48,783 - INFO - Autoencoder model initialized with input dimension: 5233.
+2024-09-20 17:39:54,364 - INFO - Loss function and optimizer set up.
+2024-09-20 17:41:11,188 - INFO - Epoch [1/50], Loss: nan
+2024-09-20 17:42:19,492 - INFO - Epoch [2/50], Loss: nan
+2024-09-20 17:42:42,963 - INFO - Epoch [3/50], Loss: nan
+2024-09-20 17:43:06,721 - INFO - Epoch [4/50], Loss: nan
+2024-09-20 17:43:28,626 - INFO - Epoch [5/50], Loss: nan
+2024-09-20 17:43:49,357 - INFO - Epoch [6/50], Loss: nan
+2024-09-20 17:44:10,369 - INFO - Epoch [7/50], Loss: nan
+2024-09-20 17:44:30,834 - INFO - Epoch [8/50], Loss: nan
+2024-09-20 17:44:51,991 - INFO - Epoch [9/50], Loss: nan
+2024-09-20 17:45:12,427 - INFO - Epoch [10/50], Loss: nan
+2024-09-20 17:45:32,666 - INFO - Epoch [11/50], Loss: nan
+2024-09-20 17:45:53,379 - INFO - Epoch [12/50], Loss: nan
+2024-09-20 17:46:13,852 - INFO - Epoch [13/50], Loss: nan
+2024-09-20 17:46:41,947 - INFO - Epoch [14/50], Loss: nan
+2024-09-20 17:47:11,566 - INFO - Epoch [15/50], Loss: nan
+2024-09-20 17:48:07,349 - INFO - Epoch [16/50], Loss: nan
+2024-09-20 17:48:54,800 - INFO - Epoch [17/50], Loss: nan
+2024-09-20 17:49:38,358 - INFO - Epoch [18/50], Loss: nan
+2024-09-20 17:50:23,864 - INFO - Epoch [19/50], Loss: nan
+2024-09-20 17:51:07,435 - INFO - Epoch [20/50], Loss: nan
+2024-09-20 17:51:53,395 - INFO - Epoch [21/50], Loss: nan
+2024-09-20 17:52:37,808 - INFO - Epoch [22/50], Loss: nan
+2024-09-20 17:53:22,537 - INFO - Epoch [23/50], Loss: nan
+2024-09-20 17:54:06,253 - INFO - Epoch [24/50], Loss: nan
+2024-09-20 17:54:52,443 - INFO - Epoch [25/50], Loss: nan
+2024-09-20 17:55:31,797 - INFO - Epoch [26/50], Loss: nan
+2024-09-20 17:55:58,966 - INFO - Epoch [27/50], Loss: nan
+2024-09-20 17:56:20,030 - INFO - Epoch [28/50], Loss: nan
+2024-09-20 17:57:00,891 - INFO - Epoch [29/50], Loss: nan
+2024-09-20 17:57:45,792 - INFO - Epoch [30/50], Loss: nan
+2024-09-20 17:58:06,723 - INFO - Epoch [31/50], Loss: nan
+2024-09-20 17:58:28,658 - INFO - Epoch [32/50], Loss: nan
+2024-09-20 17:58:49,096 - INFO - Epoch [33/50], Loss: nan
+2024-09-20 17:59:09,669 - INFO - Epoch [34/50], Loss: nan
+2024-09-20 17:59:39,231 - INFO - Epoch [35/50], Loss: nan
+2024-09-20 18:00:06,394 - INFO - Epoch [36/50], Loss: nan
+2024-09-20 18:00:33,142 - INFO - Epoch [37/50], Loss: nan
+2024-09-20 18:01:12,145 - INFO - Epoch [38/50], Loss: nan
+2024-09-20 18:01:37,306 - INFO - Epoch [39/50], Loss: nan
+2024-09-20 18:02:14,144 - INFO - Epoch [40/50], Loss: nan
+2024-09-20 18:02:47,369 - INFO - Epoch [41/50], Loss: nan
+2024-09-20 18:03:12,250 - INFO - Epoch [42/50], Loss: nan
+2024-09-20 18:03:42,284 - INFO - Epoch [43/50], Loss: nan
+2024-09-20 18:04:10,182 - INFO - Epoch [44/50], Loss: nan
+2024-09-20 18:04:39,211 - INFO - Epoch [45/50], Loss: nan
+2024-09-20 18:05:14,682 - INFO - Epoch [46/50], Loss: nan
+2024-09-20 18:05:39,872 - INFO - Epoch [47/50], Loss: nan
+2024-09-20 18:06:07,069 - INFO - Epoch [48/50], Loss: nan
+2024-09-20 18:06:38,034 - INFO - Epoch [49/50], Loss: nan
+2024-09-20 18:07:17,043 - INFO - Epoch [50/50], Loss: nan
+2024-09-20 18:07:17,044 - INFO - Training complete.
+2024-09-20 18:07:17,047 - INFO - Anomaly detection threshold set to 0.02.
+2024-09-20 18:07:20,494 - INFO - Number of anomalies detected: 0
+2024-09-20 18:07:22,499 - INFO - Starting data preprocessing for anomaly detection.
+2024-09-20 18:07:22,603 - INFO - Datasets loaded successfully with the first 1000 rows from each file.
+2024-09-20 18:07:22,698 - INFO - Datasets combined successfully.
+2024-09-20 18:07:22,709 - INFO - Numeric columns: Index(['1478198376.389427', '8', '1478195721.903877', '1478193190.056566',
+       '1478191030.045114'],
+      dtype='object')
+2024-09-20 18:07:22,710 - INFO - Categorical columns: Index(['0316', '05', '21', '68', '09', '21.1', '21.2', '00', '6f', 'R', '0545',
+       'd8', '00.1', '8a', '00.2', '00.3', '00.4', '00.5', '0140', '10', '29',
+       '2a', '24', '22', '22.1', '20', '75'],
+      dtype='object')
+2024-09-20 18:07:22,879 - INFO - Categorical columns encoded using One-Hot Encoding (sparse format).
+2024-09-20 18:07:22,894 - INFO - Numeric data normalized using StandardScaler.
+2024-09-20 18:07:23,362 - INFO - Data concatenated and converted to dense format for PyTorch.
+2024-09-20 18:07:23,741 - INFO - Data converted to PyTorch tensors.
+2024-09-20 18:07:23,761 - INFO - Data split into training and test sets with a test size of 20%.
+2024-09-20 18:07:23,988 - INFO - DataLoader created for both training and test sets.
+2024-09-20 18:07:23,999 - INFO - Autoencoder model initialized with input dimension: 1665.
+2024-09-20 18:07:24,000 - INFO - Loss function and optimizer set up.
+2024-09-20 18:07:24,974 - INFO - Epoch [1/50], Loss: nan
+2024-09-20 18:07:25,890 - INFO - Epoch [2/50], Loss: nan
+2024-09-20 18:07:26,883 - INFO - Epoch [3/50], Loss: nan
+2024-09-20 18:07:28,290 - INFO - Epoch [4/50], Loss: nan
+2024-09-20 18:07:29,824 - INFO - Epoch [5/50], Loss: nan
+2024-09-20 18:07:30,577 - INFO - Epoch [6/50], Loss: nan
+2024-09-20 18:07:31,215 - INFO - Epoch [7/50], Loss: nan
+2024-09-20 18:07:31,877 - INFO - Epoch [8/50], Loss: nan
+2024-09-20 18:07:32,521 - INFO - Epoch [9/50], Loss: nan
+2024-09-20 18:07:33,265 - INFO - Epoch [10/50], Loss: nan
+2024-09-20 18:07:34,044 - INFO - Epoch [11/50], Loss: nan
+2024-09-20 18:07:35,130 - INFO - Epoch [12/50], Loss: nan
+2024-09-20 18:07:36,667 - INFO - Epoch [13/50], Loss: nan
+2024-09-20 18:07:38,100 - INFO - Epoch [14/50], Loss: nan
+2024-09-20 18:07:39,363 - INFO - Epoch [15/50], Loss: nan
+2024-09-20 18:07:41,056 - INFO - Epoch [16/50], Loss: nan
+2024-09-20 18:07:42,602 - INFO - Epoch [17/50], Loss: nan
+2024-09-20 18:07:44,087 - INFO - Epoch [18/50], Loss: nan
+2024-09-20 18:07:45,331 - INFO - Epoch [19/50], Loss: nan
+2024-09-20 18:07:46,966 - INFO - Epoch [20/50], Loss: nan
+2024-09-20 18:07:48,761 - INFO - Epoch [21/50], Loss: nan
+2024-09-20 18:07:50,287 - INFO - Epoch [22/50], Loss: nan
+2024-09-20 18:07:51,398 - INFO - Epoch [23/50], Loss: nan
+2024-09-20 18:07:52,513 - INFO - Epoch [24/50], Loss: nan
+2024-09-20 18:07:53,956 - INFO - Epoch [25/50], Loss: nan
+2024-09-20 18:07:55,347 - INFO - Epoch [26/50], Loss: nan
+2024-09-20 18:07:56,533 - INFO - Epoch [27/50], Loss: nan
+2024-09-20 18:07:57,732 - INFO - Epoch [28/50], Loss: nan
+2024-09-20 18:07:58,586 - INFO - Epoch [29/50], Loss: nan
+2024-09-20 18:07:59,274 - INFO - Epoch [30/50], Loss: nan
+2024-09-20 18:07:59,929 - INFO - Epoch [31/50], Loss: nan
+2024-09-20 18:08:00,795 - INFO - Epoch [32/50], Loss: nan
+2024-09-20 18:08:01,735 - INFO - Epoch [33/50], Loss: nan
+2024-09-20 18:08:02,544 - INFO - Epoch [34/50], Loss: nan
+2024-09-20 18:08:03,156 - INFO - Epoch [35/50], Loss: nan
+2024-09-20 18:08:03,789 - INFO - Epoch [36/50], Loss: nan
+2024-09-20 18:08:04,406 - INFO - Epoch [37/50], Loss: nan
+2024-09-20 18:08:04,995 - INFO - Epoch [38/50], Loss: nan
+2024-09-20 18:08:05,573 - INFO - Epoch [39/50], Loss: nan
+2024-09-20 18:08:06,294 - INFO - Epoch [40/50], Loss: nan
+2024-09-20 18:08:06,880 - INFO - Epoch [41/50], Loss: nan
+2024-09-20 18:08:07,430 - INFO - Epoch [42/50], Loss: nan
+2024-09-20 18:08:08,018 - INFO - Epoch [43/50], Loss: nan
+2024-09-20 18:08:08,593 - INFO - Epoch [44/50], Loss: nan
+2024-09-20 18:08:09,208 - INFO - Epoch [45/50], Loss: nan
+2024-09-20 18:08:10,050 - INFO - Epoch [46/50], Loss: nan
+2024-09-20 18:08:10,785 - INFO - Epoch [47/50], Loss: nan
+2024-09-20 18:08:11,429 - INFO - Epoch [48/50], Loss: nan
+2024-09-20 18:08:12,023 - INFO - Epoch [49/50], Loss: nan
+2024-09-20 18:08:12,590 - INFO - Epoch [50/50], Loss: nan
+2024-09-20 18:08:12,590 - INFO - Training complete.
+2024-09-20 18:08:12,592 - INFO - Anomaly detection threshold set to 0.02.
+2024-09-20 18:08:12,635 - INFO - Number of anomalies detected: 0
